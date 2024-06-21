@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /register/
+
+# Allow all other pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://henrrygarrido.com/sitemap.xml
